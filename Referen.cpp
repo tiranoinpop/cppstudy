@@ -18,5 +18,5 @@ int main()
 
     cout<<"VAL addr:" << &num1 <<endl;
     cout<<"REF addr:" << &num2 <<endl;
-    
+    return 0;
 }
