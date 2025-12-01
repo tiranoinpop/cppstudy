@@ -21,14 +21,13 @@ int main(){
     std::cout << initial << std::endl;
 
     //boolean (true or false)
-    bool is_student = true;
+    bool is_student = false;
     bool is_powered = false;
     bool is_for_sale = true;
 
     // string (objects that represents a sequence of text)
     std::string name = "Insu";
     std::string day = "Sunday";
-    
 
     std::cout << "Hello " << name << std::endl;
     std::cout << "You are " << age << " years old" << std::endl;
