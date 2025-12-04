@@ -7,6 +7,8 @@ int main(void) {
 
     int &ref1 = *p;
     //int &ref1 = num1; 과 같다.
+    //무엇이 ref1 에 전달되는 것인가!
+    //변수 num1 을 참조할 수 있는 정보가 전달되는 것이다!
     int *(&ref2) = p;
 
      
